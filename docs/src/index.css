@@ -1,11 +1,38 @@
+* {
+    font-family: "Questrial";
+    word-wrap: break-word;
+}
+
 html, body {
     padding: 0;
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    margin-left: 5%;
-    background-color: #1a1a88;
+    background-color: #000;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+
+.content-wrapper {
+    background-color: #445;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: -50%;
+    padding: 3px;
+}
+
+.aspect-dummy {
+    margin-top: 25%;
+}
+
+.content-wrapper * {
+    position: relative;
 }
 
 h1 {
